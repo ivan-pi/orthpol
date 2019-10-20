@@ -8,7 +8,15 @@ macro(ADDTEST name)
     add_test(${name} ${PROJECT_BINARY_DIR}/${name})
 endmacro(ADDTEST)
 
-ADDTEST(test1)
+macro(ADDTESTF90 name)
+    add_executable(${name} ${name}.f90)
+    target_link_libraries(${name} p::orthpol)
+    add_test(${name} ${PROJECT_BINARY_DIR}/${name})
+endmacro(ADDTESTF90)
+
+ADDTESTF90(test1)
+
+#ADDTEST(test1)
 ADDTEST(test2)
 ADDTEST(test3)
 ADDTEST(test4)
