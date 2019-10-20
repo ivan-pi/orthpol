@@ -31,3 +31,11 @@ Coming soon...
 ## References
 
 1. Gautschi, W. (1994). Algorithm 726: ORTHPOL–a package of routines for generating orthogonal polynomials and Gauss-type quadrature rules. ACM Transactions on Mathematical Software (TOMS), 20(1), 21–62. doi:10.1145/174603.174605
+
+## Related
+
+* https://pypi.org/project/orthpol/#description
+* https://github.com/PredictiveScienceLab/py-orthpol
+* https://dl.acm.org/citation.cfm?id=174605
+* https://github.com/nschloe/quadpy
+* https://www.cs.purdue.edu/homes/wxg/
