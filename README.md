@@ -1,12 +1,8 @@
 # orthpol
 
-A package of routines for generating orthogonal polynomials and Gauss-type quadrature rules
+This is a modern Fortran frontend to the ORTHPOL package for generating orthogonal polynomials and Gauss-type quadrature rules. The package was originally developed by W. Gautschi [1]. 
 
-## Description
-
-This is a modern Fortran frontend to the ORTHPOL package by W. Gautschi [1]. 
-
-The original ORTHPOL code can be found [here](https://www.cs.purdue.edu/archives/2001/wxg/codes/ORTHPOL). A copy of the old package for verification purposes can be found in the folder [legacy](./legacy). The folder contains an updated Makefile to compile the original tests with gfortran.
+The original ORTHPOL code can be found [here](https://www.cs.purdue.edu/archives/2001/wxg/codes/ORTHPOL). A copy of the old package for verification purposes can be found in the [legacy](./legacy) folder. An updated Makefile is provided to compile the original tests using gfortran.
 
 
 ## Building orthpol
